@@ -3,4 +3,13 @@
   console.log("In +page.svelte:", data.number);
 </script>
 
-{data.number}
+<p>
+  {data.number}
+</p>
+
+<style>
+  p {
+    font-size: 20rem;
+    text-align: center;
+  }
+</style>
